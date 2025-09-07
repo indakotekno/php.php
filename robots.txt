@@ -1,0 +1,4 @@
+User-Agent: GoogleBot
+Allow: /
+
+Sitemap: https://learnwoo.com/brain-teaser-iq-questions-and-answers/sitemap.xml
