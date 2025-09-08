@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /cgi-bin/
+Disallow: /recommended/
+Disallow: /trackback/
+Disallow: /index.php
+Disallow: /xmlrpc.php
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /my-account/
+Disallow: /*?s=*
+Disallow: /*?post_type=product&s=*
+Allow: /wp-admin/admin-ajax.php
+Allow: /about-us/
+Allow: /brain-teaser-iq-questions-and-answers/
+
+Sitemap: https://learnwoo.com/sitemap.xml
